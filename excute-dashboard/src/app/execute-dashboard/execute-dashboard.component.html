@@ -1,0 +1,78 @@
+<div class="container mt-4">
+  <h4>Executive Dashboard</h4>
+  <div class="row mt-2 mb-2">
+    <div class="col-sm-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <p>Auto range date</p>
+          <div>
+            <input type="month"  class="form-control border-0">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div
+      class="col col-sm-3 col-lg-3 col-md-3 col-xl-3"
+      *ngFor="let item of executeInformation"
+    >
+      <div class="card shadow border-0 h-100 rounded">
+        <div class="card-text mt-2">
+          <span class="ms-4 font-weight-bold fs-6">{{ item.title }}</span>
+        </div>
+        <div class="card-body mt-2">
+          <ng-container *ngIf="!item.isChart">
+            <h1
+              class="text-dark font-weight-bold text-center"
+              *ngIf="item.title === 'New MRR'"
+            >
+              {{ item.amount | currency }}
+            </h1>
+            <h1
+              class="text-dark font-weight-bold text-center"
+              *ngIf="item.title != 'New MRR'"
+            >
+             <span>{{ item.amount }}</span>
+            </h1>
+            <h3 class="text-success text-center">
+              <i class="fa fa-arrow-up p-0"></i> {{item.profit }}% <br />
+              <span class="text-dark fs-6">vs previous 30 days</span>
+            </h3>
+          </ng-container>
+          <ng-container *ngIf="item.isChart">
+            <app-chart
+              [chartType]="'doughnut'"
+              [chartBasicData]="data"
+              [chartOptions]="options"
+            ></app-chart>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col col-sm-6 col-lg-6 col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <app-chart
+            [chartType]="'bubble'"
+            [chartBasicData]="bubbleData"
+            [chartOptions]="bubbleOptions"
+          ></app-chart>
+        </div>
+      </div>
+    </div>
+    <div class="col col-sm-6 col-lg-6 col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <app-chart
+            [chartType]="'bar'"
+            [chartBasicData]="basicData"
+            [chartOptions]="options"
+          ></app-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

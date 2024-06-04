@@ -1,0 +1,8 @@
+<div style="width: 50%; height: 50%; margin-left: 24px;" *ngIf="chartType === 'doughnut'">
+  <p-chart [type]="chartType" [data]="chartBasicData" [options]="chartOptions" style="width: 200px; height: 200px;"></p-chart>
+</div>
+
+<ng-container *ngIf="chartType !== 'doughnut'">
+  <p-chart [type]="chartType" [data]="chartBasicData" [options]="chartOptions"></p-chart>
+</ng-container>
+
