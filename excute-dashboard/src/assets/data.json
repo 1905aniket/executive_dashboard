@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "title": "New Wins",
+      "amount": 230,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-01-01",
+      "data":null
+    },
+    {
+      "title": "Trail : New Rate",
+      "amount": 9.86,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-01-01",
+      "data":null
+    },
+    {
+      "title": "New MRR",
+      "amount": 25690,
+      "profit": 8.7,
+      "isChart": false,
+      "label":null,
+      "date": "2024-01-01",
+      "data":null
+    },
+    {
+      "title":"Page Views",
+      "isChart":true,
+      "amount": null,
+      "profit": null,
+      "label":["Organic Search","Referral","Direct"],
+      "data":[300,100,50],
+      "date": "2024-01-01"
+    },
+    {
+      "title": "New Rings",
+      "amount": 270,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-02-01",
+      "data":[300,100,20]
+    },
+    {
+      "title": "Trail : New Rate",
+      "amount": 15.86,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-02-01",
+      "data":null
+    },
+    {
+      "title": "New MRR",
+      "amount": 25990,
+      "profit": 8.7,
+      "isChart": false,
+      "label":null,
+      "date": "2024-02-01",
+      "data":null
+    },
+    {
+      "title":"Page Views",
+      "isChart":true,
+      "amount": null,
+      "profit": null,
+      "label":["Organic Search","Referral","Direct"],
+      "date": "2024-02-01",
+      "data":[300,100,20]
+    },
+    {
+      "title": "New Rings",
+      "amount": 270,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-05-01",
+      "data":[300,100,20]
+    },
+    {
+      "title": "Trail : New Rate",
+      "amount": 15.86,
+      "profit": 25,
+      "isChart": false,
+      "label":null,
+      "date": "2024-05-01",
+      "data":null
+    },
+    {
+      "title": "New MRR",
+      "amount": 32990,
+      "profit": 24.7,
+      "isChart": false,
+      "label":null,
+      "date": "2024-05-01",
+      "data":null
+    },
+    {
+      "title":"Page Views",
+      "isChart":true,
+      "amount": null,
+      "profit": null,
+      "label":["Organic Search","Referral","Direct"],
+      "date": "2024-05-01",
+      "data":[300,100,20]
+    },
+    {
+      "title": "New Rings",
+      "amount": 340,
+      "profit": 55,
+      "isChart": false,
+      "label":null,
+      "date": "2024-07-01",
+      "data":[300,100,20]
+    },
+    {
+      "title": "Trail : New Rate",
+      "amount": 46.86,
+      "profit": 75,
+      "isChart": false,
+      "label":null,
+      "date": "2024-07-01",
+      "data":null
+    },
+    {
+      "title": "New MRR",
+      "amount": 76990,
+      "profit": 65.7,
+      "isChart": false,
+      "label":null,
+      "date": "2024-07-01",
+      "data":null
+    },
+    {
+      "title":"Page Views",
+      "isChart":true,
+      "amount": null,
+      "profit": null,
+      "label":["Organic Search","Referral","Direct"],
+      "date": "2024-07-01",
+      "data":[300,100,20]
+    }
+  ]
+}
