@@ -4,6 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ExecuteDashboardComponent } from './execute-dashboard/execute-dashboard.component';
 import { ChartComponent } from './shared/components/chart/chart.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { ChartComponent } from './shared/components/chart/chart.component';
   imports: [
     BrowserModule,
     ChartComponent,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
